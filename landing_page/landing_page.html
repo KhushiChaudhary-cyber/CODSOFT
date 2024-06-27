@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOURNEY OF LIFE</title>
+    <link rel="stylesheet" href="./style.css"></link>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Journey</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li  class="ctn"><a href="#"></a>Contact us</li>
+        </ul>
+        <img src="menu-btn.png" alt=""class="menu-btn">
+
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL EXPERIENCE</h1>
+            <a href="#"class="ctn">More</a>
+        </div>
+    </header>
+    <!-- events-->
+     <section class="events">
+        <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+     </div>
+     <div class="row">
+          <div class="col">
+             <img src="img1.png"alt="tracking">
+             <h4>Everest Camp Track</h4>
+             <p>The Everest Base Camp trek passes through the land of the Sherpas to the foot of the world's highest mountain, Sagarmatha, Nepalese for Mount Everest </p>
+             <a href="#" class="ctn">More Info</a>
+          </div>
+          <div class="col">
+             <img src="img2.png"alt="rafting">
+             <h4>Rafting</h4>
+             <p>Rafting and whitewater rafting are recreational outdoor activities which use an inflatable raft to navigate a river or other body of water.</p>
+             <a href="#" class="ctn">More Info</a>
+         </div>
+        </div>
+
+     </section>
+     <section class="explore">
+       <div class="explore-content"> 
+        <h1>EXPLORE MORE</h1>
+        <div class="line"></div>
+        <p>Nestled amid breathtaking landscapes and infused with the spirit of exploration, our adventure activities promise an unforgettable journey for every traveler seeking thrills. Embark on exhilarating hikes through rugged terrain, where ancient forests whisper tales of the past and hidden waterfalls cascade into crystalline pools.</p>
+        <a href="#" class="ctn">More Info</a>
+    </div>
+     </section>
+     <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS AND ADVENTURES</h1>
+                <div class="line"></div>
+                <p> Get ready to elevate your adventure quotient with our upcoming events that promise to ignite your sense of exploration like never before. From adrenaline-pumping mountain biking competitions to immersive wilderness survival workshops, there's something for every adventurer. Test your limits with a series of cliff rappelling sessions or immerse yourself in the tranquility of overnight camping under star-studded skies. Our lineup also includes thrilling night treks through enchanted forests and guided kayaking tours along scenic coastlines. Whether you're a thrill-seeker, nature enthusiast, or simply curious about pushing boundaries, our upcoming events are designed to deliver unforgettable moments and forge lasting memories. Join us as we embark on these exhilarating adventures together!</p>
+                <a href="#" class="ctn">More Info</a>
+            </div>
+            <div class="col image-col">
+                <img src="img3.png"alt="image3">
+                <img src="img4.png"alt="skating">
+                <img src="img5.png"alt="beaches">
+                <img src="img6.jpg"alt="desert">
+            </div>
+        </div>
+     </section>
+            
+    <section class="contact-form">
+
+        <h2 class="contact-no">Register<span>Now</span></h2>
+        <form action="#">
+  
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+          </div>
+  
+          <div class="input-box">
+            <input type="number" placeholder="Phone Number"required >
+            <input type="text" placeholder="Any Health Issues?" required >
+            </div>
+          <textarea
+            name="discription" id="discription" cols="30"
+            rows="10" placeholder="Description of health issue" >
+           </textarea>
+          <input type="submit" value="Register" class="ctn" >
+        </form>
+      </section>
+     <section class="footer">
+        <p>xyz Avenue,India|phone:91xxxxxxxx|Email:contact@gmail.com</p>
+        <p>Copyright @ 2024 Journey and Adventure|Privacy Policy</p>
+     </section>
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+
+        });
+    </script>
+</body>
+</html>
